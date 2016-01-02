@@ -1,0 +1,16 @@
+
+
+
+To run this program please wait for the arrow to appear because input commands are throttled by two seconds.
+when entering the names this program takes an account name WITHOUT spaces. so all accountnames are characters and numbers that
+dont exceed 100 length size and are not seprated.
+
+example
+
+open "heymynameisaccountname"......the account name is a whole account name
+
+open "hey my name is account name" ...the account name will be hey and wont take the rest.
+account names must be not seperated with spaces.
+
+
+once prompted you can enter the command open "name" or start "name" exit

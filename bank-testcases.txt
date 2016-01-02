@@ -1,0 +1,65 @@
+INPUTS AND EXPECTED OUTPUTS...
+
+
+When clients connect--->server displays message that the server has connected displays (ip addr and port number)
+
+INPUT           	OUTPUT
+open mike       	server sends message to user "account created"
+start random    	server sends message to user "please try again:
+start mike		server sends message to user "Acces granted debit, balance, credit, finish
+
+From inside accout(if entered commmand in order you will be inside mikes account)
+---------------------------------------------------
+start yum		server displays try again  these 2commands wont work bc your inside an account
+open  sammy		server displays try again
+----------------------------------------------------------
+credit 100.12		server displays a message back to the user "thankyou for your deposit"
+balance			server displays a message back to user "this is Your Balance: 100.12"
+debit 112		server displays a message back to the user "Insufficient funds"
+debit 90.12		server displays message back to the user "thankyou for your withdrawal"
+kjlsdfjs		please try again
+credit weeee		server displays a message back to the user "ERROR Incorrect 0.00"
+dfdfg dfgfdg dfg        server displays a message back to the user "try again"
+finish 		        server displays a message back to user "exiting account\n open start exit"
+
+
+-------------
+if an account is in use and another person is trying to access it
+the server will display a message to the user that the account is in use
+
+
+exit                    server displays a message to the user"GOODBYE"
+
+
+
+SERVER:
+
+the server will always be printing the accounts to itself every 20 seconds
+it will show which accounts are INSERVICE and which are NOT IN SERVICE
+
+everytime the client connects to the server a message will display saying the 
+client has connected..
+
+
+
+KILL OPTIONS:
+
+if the user abrubtly exits their client the server shows the disconnected client
+if the server shutsdown.....alll clients will close and display a message "SERVICE UNAVAILABLE SERVER SHUTDOWN"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
