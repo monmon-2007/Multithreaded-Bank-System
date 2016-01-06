@@ -1,7 +1,7 @@
-Roberto Merino
-Mina Gadallah
+#Roberto Merino
+#Mina Gadallah
 
-                                                      <h1>Multithreaded Bank System</h1>
+#                                                      Multithreaded Bank System
 This project is divided in two pieces.
 1-server
 2-client
