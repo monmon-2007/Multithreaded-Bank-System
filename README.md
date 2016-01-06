@@ -1,12 +1,12 @@
 <p>Roberto Merino</p>
 <p>Mina Gadallah</p>
 
-#                                                      Multithreaded Bank System
+<h1 style="text-align:center;">Multithreaded Bank System<h1>
 <br><br>
 <h2>This project is divided in two pieces.</h2>
 <p>1-server</p>
 <p>2-client</p>
-<h2>In our Server:<h2>
+<h2>In our Server:</h2>
 We have one thread that responds back to the client when the client sends a request to the server. Our Server holds all the data and bank accounts.
 The threads were created asynchronizaly which means that threads don’t interfere with one another. There is no need to wait for an input on the client, therefore the server can send a message, and otherwise, both sides will have to wait.
 When the client sends a command to the server, we Use our Tokenizer to split the command String into tokens and we analyze the token based on the possible valid commands on the server. Such that {Open, Start, debit, credit, balance, Exit} followed by the account name.
