@@ -1,8 +1,8 @@
 <p>Roberto Merino</p>
 <p>Mina Gadallah</p>
 
-<h1 style="text-align:center;">Multithreaded Bank System<h1>
-<br><br>
+<h1 style="right:50%;">Multithreaded Bank System<h1>
+
 <h2>This project is divided in two pieces.</h2>
 <p>1-server</p>
 <p>2-client</p>
